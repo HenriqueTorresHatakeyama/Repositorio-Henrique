@@ -1,0 +1,54 @@
+#form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#titulo{
+    background-color: purple;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    width: 90%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#insert{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: purple;
+    color: white;
+    width: 90%;
+    padding-bottom: 20px;
+}
+.dado{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+#nomeFilme{
+    font-weight: bold;
+}
+#insertFilme{
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+#info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 70%;
+}
+#insertAno{
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+#insertDiretor{
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+#insertOpiniao{
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
